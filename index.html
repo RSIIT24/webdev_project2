@@ -3,45 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
   </head>
-
   <body>
-
     <header>
-
       <nav>
         <ul class="nav">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a href="interests.html">Interests</a>
-          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="interests.html">Interests</a></li>
         </ul>
       </nav>
-
       <h1>Welcome</h1>
-
     </header>
 
     <main class="container-fluid">
-
       <section>
         <h2>About This Project</h2>
-
         <p>
           This website was created using HTML and CSS to demonstrate proper
           structure, layout, and styling techniques.
         </p>
-
         <p>
           Each page now includes consistent styling, navigation, and layout
           design while remaining fully validated.
@@ -50,20 +34,19 @@
 
       <section class="image-section">
         <h2>Technology Focus</h2>
-
-        <p>
-          I am interested in technology, problem solving, and learning how
-          systems work together.
-        </p>
-
-        <img src="images/technology.jpg" alt="Technology workspace image">
+        <div class="float-left">
+          <p>
+            I am interested in technology, problem-solving, and learning how
+            systems work together.
+          </p>
+        </div>
+        <img src="images/technology.jpg" alt="Technology workspace image" class="float-right">
+        <div style="clear: both;"></div>
       </section>
-
     </main>
 
     <footer>
       <p>HTML Project Home Page</p>
     </footer>
-
   </body>
 </html>
